@@ -15,6 +15,29 @@ SELECT * FROM COUNTRIES ;
 
 SELECT * FROM LOCATIONS ;
 
+SELECT * FROM DEPARTMENTS ;
+
+SELECT * FROM JOBS ;
+
+SELECT * FROM JOB_HISTORY ;
+--SQL is space insensitive
+SELECT  FIRST_NAME
+FROM  EMPLOYEES ;
+-- More than one columns can be specified separated by comma ,
+SELECT FIRST_NAME,LAST_NAME,EMAIL,EMPLOYEE_ID
+FROM EMPLOYEES ;
+
+/*
+ Task: Select Specific Columns From Other Tables
+ To Get yourself
+ */
+
+ SELECT DEPARTMENT_NAME
+FROM DEPARTMENTS;
+
+
+
+
 
 
 
